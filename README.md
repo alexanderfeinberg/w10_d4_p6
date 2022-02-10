@@ -10,6 +10,10 @@ Run SQLite on a database called __practice.db__.
 
 In this practice, you will use these example table to make your queries:
 
+![musicians-instruments-db-schema]
+
+Seed data has been provided for each table as follows: 
+
 Table `musicians`:
 
 | `id` | `first_name` | `last_name` | `band_id` |
@@ -90,3 +94,7 @@ plays the piano.
 
 You are now able to query and filter a query across tables in a many-to-many 
 relationship!
+
+
+[musicians-instruments-db-schema]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-10/musicians-instruments-db-schema.png
+[musicians-instruments-db-diagram-info]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-10/musicians-instruments-db-diagram-info.txt
