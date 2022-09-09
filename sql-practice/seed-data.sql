@@ -61,4 +61,17 @@ VALUES (1, 1),
   (9, 1),
   (9, 5),
   (10, 5);
-  
+
+
+
+  SELECT musicians.first_name, instruments.type
+  FROM instruments
+  JOIN musician_instruments on (instruments.id= musician_instruments.instrument_id)
+  JOIN musicians on (musician_instruments.musician_id = musicians.id);
+
+
+  SELECT musicians.first_name, musicians.last_name
+  FROM instruments
+  JOIN musician_instruments on (instruments.id= musician_instruments.instrument_id)
+  JOIN musicians on (musician_instruments.musician_id = musicians.id)
+  WHERE instruments.type = "piano";
